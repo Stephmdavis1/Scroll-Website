@@ -1,0 +1,175 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.intro {
+    height: 100vh;
+}
+
+.intro video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.intro h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    
+}
+
+nav a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: gray ;
+    padding: 2rem;
+    font-family: 'Bungee', cursive;
+}
+
+.section__one {
+    background-color: black;
+} 
+
+.section__one h1 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-family: 'Bungee', cursive;
+    color: white;
+    /* -webkit-box-reflect: below; */
+}
+
+.section__two {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    background-color: black;
+}
+
+.section__numbers {
+    margin-top: 13rem;
+    margin-left: 2rem;
+    position: absolute;
+    color: white;
+}
+
+.section__numbers div{
+    margin-bottom: 3rem;
+}
+
+.section__numbers h3 {
+    font-size: 48px;
+    font-family: 'Bungee', cursive;
+}
+
+.section__numbers h6 {
+    margin-top: .3rem;
+    font-size: 12px;
+    color: black;
+}
+
+.section__image {
+    position: relative;
+    border-radius: 25px 25px 0 0;
+    background-color: black;
+    
+}
+
+.section__signup {
+   text-align: center;
+   justify-content: space-between;
+   background-color: black;
+   color: white;
+}
+
+.signup__text {
+    margin-bottom: 1rem;
+    font-size: 24px;
+    color:#DCF51E;
+}
+
+.signup__one {
+    padding-top: 6rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.signup__two {
+    padding-top: 4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.section__signup li {
+    padding: .5rem;
+    color: gray;
+
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #DCF51E;
+    border: none;
+    color: black;
+    font-weight: 900;
+}
+
+.section__banner {
+    padding: 4rem;
+    background-color:#DCF51E;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.section__banner h3 {
+    font-size: 28px;
+    font-family: 'Bungee', cursive;
+    margin-left: 2rem;
+}
+
+.section__three {
+    background-color: black;
+}
+
+.section__title {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Bungee', cursive;
+    padding-top: 3rem;
+}
+
+.section__three p {
+    text-align: center;
+    color: #DCF51E;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.section__three img {
+    margin: 1rem;
+    align-items: center;
+
+}
